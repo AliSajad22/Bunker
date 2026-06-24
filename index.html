@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero – Der Bunker</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Burger Menü -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="burger-icon">
+        <span class="line"></span>
+      </label>
+
+      <nav class="nav" role="navigation" aria-label="Hauptnavigation">
+        <a href="#" class="nav__logo">
+          <img
+            src="img/logo.svg"
+            alt="Logo Hero – Der Bunker"
+            class="nav__logo-image"
+          />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Angebote</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Team</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Über uns</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <h1 id="hero-title" class="hero__headline">
+            <span class="hero__word hero__word--yellow">Laut.</span>
+            <span class="hero__word hero__word--purple">Frei.</span>
+            <span class="hero__word hero__word--white">Kreativ.</span>
+          </h1>
+          <p class="hero__subtitle">
+            Ein sicherer Ort für Kreativität und Gemeinschaft.
+          </p>
+        </div>
+
+        <div class="hero__scroll" aria-hidden="true">
+          <span class="hero__scroll-wheel"></span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
